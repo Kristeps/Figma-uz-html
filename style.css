@@ -1,19 +1,54 @@
 html {
   height: 100%;
   width: 100%;
-  }
+}
+
 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.container-2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+h1{
+  text-align: center;
+  font-family: 'Oxanium';
+  font-size: 40px;
+}
+
 .item-1 {
   width: 200px;
-  height: 350px;
+  height: 550px;
   background-color: #ffb5c2;
-  border-radius: 5px;
-  margin: 2px;
+  border-radius: 20px;
+  margin: 10px;
   text-align: center;
+}
+
+body {
+  font-family: 'Oxanium';font-size: 22px;
+  background-color: #ffe9ce;
+  padding: 0px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.navbar {
+
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffb5c2;
   padding: 10px;
 }
+
